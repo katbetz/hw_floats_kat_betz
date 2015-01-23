@@ -1,12 +1,16 @@
 img {
     width: 400px;
 	float:left;
+	clear:right;
 }
 
 h1{
 	float:right;
 }
 
+p:nth-of-type(2){
+	clear:right;
+}
 p:nth-of-type(3){
 	clear:both;
 }
